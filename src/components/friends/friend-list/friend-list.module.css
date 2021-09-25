@@ -1,0 +1,22 @@
+.friendlist {
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  /* justify-content: space-around; */
+  width: 300px;
+  border: 1px solid gray;
+}
+.friendlist li {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+}
+/* .friendlist li :not(:last-child) {
+  margin-bottom: 10px;
+} */
